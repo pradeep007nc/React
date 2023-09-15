@@ -1,5 +1,6 @@
 import React, { ChangeEvent, ChangeEventHandler, MouseEventHandler, useEffect } from 'react';
 import './App.css'; 
+import DemoComponent from './components/DemoComponent/DemoComponent';
 
 var CustomMap: { [string: string]: any } = {};
 
@@ -119,6 +120,9 @@ function App() {
             </ul>
           </div>
         </div>
+      </div>
+      <div>
+        <DemoComponent></DemoComponent>
       </div>
     </div>
   );
