@@ -1,7 +1,7 @@
-import React, { ChangeEvent, ChangeEventHandler, EventHandler, MouseEventHandler, useEffect } from 'react';
-import './App.css';
+import React, { ChangeEvent, ChangeEventHandler, MouseEventHandler, useEffect } from 'react';
+import './App.css'; 
 
-var CustomMap: { [key: string]: any } = {};
+var CustomMap: { [string: string]: any } = {};
 
 function App() {
   const [todo, setTodo] = React.useState("");
@@ -55,7 +55,7 @@ function App() {
     setTodo(todo);
     setEditTodoIdx(nBeingEdited);
   }
-  
+
   const handleChange: ChangeEventHandler<Element> = (event: ChangeEvent) => {
     var elem = event.target as HTMLTextAreaElement;
 
