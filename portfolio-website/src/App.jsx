@@ -1,10 +1,15 @@
 import { useState } from 'react'
 import SideNav from './Components/SideNav'
+import Main from './Components/Main'
 
 function App() {
 
   return (
-    <SideNav />
+    <>
+      <SideNav />
+      <Main />
+    
+    </>
   )
 }
 
