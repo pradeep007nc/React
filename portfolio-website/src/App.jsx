@@ -3,6 +3,8 @@ import SideNav from './Components/SideNav'
 import Main from './Components/Main'
 import Work from './Components/Work'
 import Education from './Components/Education'
+import Projects from './Components/Projects'
+import Contact from './Components/Contact'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <Main />
       <Work />
       <Education />
+      <Projects />
+      <Contact />
     </>
   )
 }

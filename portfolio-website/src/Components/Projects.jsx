@@ -1,9 +1,11 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import DA from "../assets/dataAnalytics.png";
-import mtvx from "../assets/mtvx.png";
-import planti from "../assets/planti.png";
-import portfolio from "../assets/portfolio.png";
+import hibernate from "../assets/hibernate.png";
+import ecommerce from "../assets/Ecommerce.png";
+import jwtauth from "../assets/jwt-auth.png";
+import movie from "../assets/movie.jpg";
+import portfolio from "../assets/portfolio.png"
+import tictactoe from "../assets/TicTacToe.png"
 
 const Projects = () => {
   return (
@@ -14,24 +16,34 @@ const Projects = () => {
       <p className="text-center text-xl pt-4 pb-6">Checkout my Projects!</p>
       <div className="grid md:grid-cols-2 gap-12">
         <ProjectItem
-          img={mtvx}
-          title={"Movie Streaming Website"}
-          link={"https://github.com/vishnuarjun512/Movie-Website/tree/dev"}
+          img={ecommerce}
+          title={"Ecommerce - Spring and Angualar"}
+          link={"https://github.com/pradeep007nc/SmartCommerce"}
         />
         <ProjectItem
-          img={planti}
-          title={"Plant Ecommerce"}
-          link={"https://github.com/vishnuarjun512/Plant_Ecommerce"}
+          img={movie}
+          title={"Movie Backend Spring"}
+          link={"https://github.com/pradeep007nc/Java-projects/tree/main/MovieBackend"}
         />
         <ProjectItem
-          img={DA}
-          title={"Data Analytics"}
-          link={"https://github.com/vishnuarjun512/Data-Finance-React"}
+          img={hibernate}
+          title={"Hibernate - Java Spring, sql"}
+          link={"https://github.com/pradeep007nc/Java-projects/tree/main/hibernateCommandline"}
+        />
+        <ProjectItem
+          img={jwtauth}
+          title={"JWT Authentication - Java Spring"}
+          link={"https://github.com/pradeep007nc/Java-projects/tree/main/jwt-authentication"}
+        />
+        <ProjectItem
+          img={tictactoe}
+          title={"Tic Tac Toe - Java applet"}
+          link={"https://github.com/pradeep007nc/Tic-Tac-Toe-Game"}
         />
         <ProjectItem
           img={portfolio}
-          title={"Portfolio"}
-          link={"https://github.com/vishnuarjun512/portfolio"}
+          title={"Personal Portfolio - React"}
+          link={"https://github.com/pradeep007nc/React/tree/main/portfolio-website"}
         />
       </div>
     </div>
