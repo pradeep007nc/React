@@ -7,7 +7,7 @@ const Contact = () => {
         Contact Me
       </h1>
       <form
-        action="https://getform.io/f/6c5d4a0a-3945-4e2b-89cf-cc52412ab93a"
+        action="https://getform.io/f/1ab3358e-b9cd-4f3a-b32d-b3c2060264d0"
         method="post"
         encType="multipart/form-data"
       >
